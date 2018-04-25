@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.clearfix: after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
@@ -38,25 +38,58 @@ p {
 
 .author-text {
     font-size: 22px;
+    float: left;
+    margin: 39px 0 0 10px;
 }
 .container {
     width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0 auto;
 }
 
 .blog-post {
-    background-color: #0000ff;
     width: 75%;
     float: left;
+    padding-right: 30px;
+    position: relative;
 }
 
 .other-posts {
-    background-color: #00ff00;
     width: 25%;
     float: left;
 }
 
 .author-box {
-    background-color: #ffff00;
+    padding-top: 20px;
+    border-top: 1px solid #707070;
+}
+
+.smaller-image100 {
+    width: 100px;
+}
+
+.smaller-image300 {
+    width: 300px;
+}
+
+.other {
+    margin-bottom: 40px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    float: left;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
 }
